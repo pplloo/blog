@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网页</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .article {
+            background: #fff;
+            padding: 20px;
+            margin: 20px;
+            width: 100%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .media {
+            margin: 20px 0;
+            width: 100%;
+        }
+        .media img, .media video {
+            max-width: 100%;
+            margin: 10px 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .comments, .social-links {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>我的个人网页</h1>
+    </header>
+    <div class="container">
+        <div class="content">
+            <div class="article">
+                <h2>文章标题1</h2>
+                <p>这里是第一篇文章的内容...</p>
+            </div>
+            <div class="media">
+                <img src="photo1.jpg" alt="照片1">
+                <video src="video1.mp4" controls>视频1</video>
+            </div>
+            <div class="article">
+                <h2>文章标题2</h2>
+                <p>这里是第二篇文章的内容...</p>
+            </div>
+            <div class="media">
+                <img src="photo2.jpg" alt="照片2">
+                <video src="video2.mp4" controls>视频2</video>
+            </div>
+        </div>
+        <div class="comments">
+            <h3>评论区</h3>
+            <textarea rows="4" cols="50" placeholder="在此输入评论..."></textarea>
+            <button type="submit">提交</button>
+        </div>
+        <div class="social-links">
+            <h3>社交媒体链接</h3>
+            <a href="https://facebook.com">Facebook</a>
+            <a href="https://twitter.com">Twitter</a>
+            <a href="https://instagram.com">Instagram</a>
+        </div>
+    </div>
+    <footer> 
+        <p>版权所有 &copy; 2024 我的个人网页</p>
+    </footer>
+</body>
+</html>
